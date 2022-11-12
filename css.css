@@ -1,0 +1,49 @@
+header {
+  background-color: #49065e !important;
+}
+
+body {
+  background-color: #313131;
+}
+
+.card {
+  display: flex;
+  height: 300px;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.card img {
+  object-fit: cover;
+  height: 290px;
+  border-radius: 8px;
+}
+
+.card-text {
+  overflow-y: auto;
+  height: 100px;
+}
+
+.btn {
+  background-color: #49065e !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
